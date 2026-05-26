@@ -151,16 +151,6 @@ img { display: block; max-width: 100%; }
   padding: 32px var(--gutter) 56px;
   overflow: hidden;
 }
-.hero-bg-image {
-  position: absolute;
-  inset: 0;
-  background-image: url('/graces.jpg');
-  background-size: cover;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  opacity: 0.35;
-  z-index: 0;
-}
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -766,6 +756,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  padding-top: 48px;
 }
 @media (min-width: 900px) {
   .hand-visual { align-self: stretch; min-height: 640px; }
@@ -884,7 +875,6 @@ img { display: block; max-width: 100%; }
 
   <!-- === HERO === -->
   <section class="hero" id="top">
-    <div class="hero-bg-image" aria-hidden="true"></div>
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="hero-glow" aria-hidden="true"></div>
     <div class="hero-circle" aria-hidden="true"></div>
@@ -967,9 +957,6 @@ img { display: block; max-width: 100%; }
   <section class="section about" id="about">
     <div class="container">
       <div class="about-grid">
-        <div class="about-visual">
-          <img src="/graces.jpg" alt="Three marble Graces — visual reference for the Convivium aesthetic">
-        </div>
         <div>
           <div class="section-label">About</div>
           <blockquote class="about-quote">The back of house is where the feast gets made. It is where the power actually lives.</blockquote>
