@@ -1,0 +1,10 @@
+{
+  "name": "convivium-co",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convivium Co. — marketing site",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
