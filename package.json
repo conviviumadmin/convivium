@@ -2,6 +2,7 @@
   "name": "convivium-co",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Convivium Co. — marketing site",
   "scripts": {
     "dev": "vercel dev",
